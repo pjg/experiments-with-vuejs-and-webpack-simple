@@ -1,12 +1,18 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
+    <test></test>
   </div>
 </template>
 
 <script>
+import Test from './components/test.vue'
+
 export default {
   name: 'app',
+  components: {
+    Test
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
