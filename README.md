@@ -1,10 +1,20 @@
-# hello
+# Experiments with Vue.js and webpack-simple
 
 > Experimental Vue.js project using webpack
 
+## Generated using
+
+```bash
+npm install -g vue-cli
+vue init webpack-simple hello
+cd hello
+npm install
+npm run dev
+```
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
